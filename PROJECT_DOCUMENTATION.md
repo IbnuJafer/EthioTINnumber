@@ -9,7 +9,7 @@
 
 *A Modern MERN Stack Solution for Tax Identification*
 
-**Developer:** [Your Name]
+**Developer:**abdellah
 **Date:** March 2026
 **Tech Stack:** MongoDB | Express | React | Node.js
 
@@ -355,8 +355,6 @@ etin-system/
 ### Live Demo
 **URL:** https://ethiopian-etin.onrender.com
 
-**GitHub:** [Your GitHub Repo Link]
-
 ---
 
 ## Slide 16: Q&A
@@ -364,9 +362,9 @@ etin-system/
 ### Questions?
 
 **Contact:**
-- Email: [your-email@example.com]
-- LinkedIn: [Your LinkedIn]
-- GitHub: [Your GitHub]
+- Email: abdellaj636@gmail.com
+- LinkedIn: 
+- GitHub: https://github.com/IbnuJafer
 
 **Thank You!**
 
