@@ -318,15 +318,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-**Developer:** [Your Name]
+**Developer:** abdellah
 
-**Email:** your.email@example.com
+**Email:** abdellaj636@gmail.com
 
-**LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
-**GitHub:** [Your GitHub](https://github.com/yourusername)
+**GitHub:**(https://github.com/IbnuJafer)
 
----
+
 
 <p align="center">
   Made with ❤️ for Ethiopia
