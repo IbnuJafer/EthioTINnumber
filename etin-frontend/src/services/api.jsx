@@ -1,7 +1,11 @@
 import axios from "axios";
 
-// Use relative URL in production, localhost in development
-const baseURL = import.meta.env.PROD ? "/api" : "http://localhost:5000/api";
+// Backend API URL - change this to your Render backend URL after deployment
+const RENDER_BACKEND_URL = "https://ethiotin-backend.onrender.com/api";
+
+// Use environment variable or fallback to localhost
+const baseURL = import.meta.env.VITE_API_URL || 
+                (import.meta.env.PROD ? RENDER_BACKEND_URL : "http://localhost:5000/api");
 
 const API = axios.create({
     baseURL,

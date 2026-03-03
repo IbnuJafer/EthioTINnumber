@@ -19,8 +19,20 @@ connectDB();
 const app = express();
 
 // CORS configuration
+const allowedOrigins = [
+  "http://localhost:5173",
+  "http://localhost:3000",
+  // Add your Vercel frontend URL after deployment (e.g., "https://ethiotin.vercel.app")
+];
+
+if (process.env.FRONTEND_URL) {
+  allowedOrigins.push(process.env.FRONTEND_URL);
+}
+
 app.use(cors({
-  origin: process.env.NODE_ENV === "production" ? true : ["http://localhost:5173", "http://localhost:3000"],
+  origin: process.env.NODE_ENV === "production" 
+    ? allowedOrigins 
+    : ["http://localhost:5173", "http://localhost:3000"],
   credentials: true
 }));
 
